@@ -63,3 +63,48 @@
     font-weight: 500;
     cursor: pointer;
 }
+/* Toast container */
+.Toastify__toast-container {
+  z-index: 9999;
+}
+
+/* Toast box */
+.Toastify__toast {
+  border-radius: 10px;
+  padding: 10px;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Success toast */
+.Toastify__toast--success {
+  background-color: #4caf50;
+  color: white;
+}
+
+/* Error toast */
+.Toastify__toast--error {
+  background-color: #f44336;
+  color: white;
+}
+
+/* Info toast */
+.Toastify__toast--info {
+  background-color: #2196f3;
+  color: white;
+}
+
+/* Warning toast */
+.Toastify__toast--warning {
+  background-color: #ff9800;
+  color: white;
+}
+
+/* Close button */
+.Toastify__close-button {
+  color: white;
+}
+
+/* Progress bar */
+.Toastify__progress-bar {
+  background: white;
+}
